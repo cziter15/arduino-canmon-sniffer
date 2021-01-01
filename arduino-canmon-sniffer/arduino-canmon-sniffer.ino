@@ -18,7 +18,6 @@
 //	[Arduino-CAN]	https://github.com/sandeepmistry/arduino-CAN
 /*-----------------------------------------------------------------*/
 #include <CAN.h>
-
 /*------------------------- CAN BUS SETUP -------------------------*/
 #define CAN_TX_PIN		4				// << TRANSCEIVER TX
 #define CAN_RX_PIN		5				// << TRANSCEIVER RX
@@ -49,7 +48,7 @@ class utils
 
 		static void updateChecksum(uint8_t(&packet)[20])
 		{
-			packet[19] == calcChecksum(packet);
+			packet[19] = calcChecksum(packet);
 		}
 };
 /*-----------------------------------------------------------------*/
@@ -62,7 +61,7 @@ void setup()
 	CAN.setPins(CAN_RX_PIN, CAN_TX_PIN);
 	CAN.begin(CAN_BUS_SPEED);
 }
-
+/*-----------------------------------------------------------------*/
 //	Arduino loop function.
 //	Handle CAN and Serial communication.
 /*-----------------------------------------------------------------*/

@@ -16,6 +16,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="arduino-canmon-sniffer.ino" />
+    <None Include="..\README.md" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.arduino-canmon-sniffer.vsarduino.h">

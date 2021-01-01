@@ -104,6 +104,7 @@
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="..\README.md" />
     <None Include="arduino-canmon-sniffer.ino">
       <FileType>CppCode</FileType>
     </None>

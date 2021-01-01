@@ -7,7 +7,7 @@ https://github.com/tixiv/CAN-Monitor-qt
 It emulates only basic packets of CanAdapterChina class and
 it does not support changing any CAN parameters on demand.
 
-CAN bus speed can be changed below - see CAN BUS SETUP section.
+CAN bus speed can be changed in code.
 
 Keep in mind that some ESP32 devkits do not support 2000000
 serial speed. CP21XX based ones can be reconfigured to support
