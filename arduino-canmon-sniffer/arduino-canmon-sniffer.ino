@@ -5,7 +5,7 @@
 //	by using CAN Monitor-qt project avaiable at github:
 //	https://github.com/tixiv/CAN-Monitor-qt
 //
-//	It emulates only basic packets of CanAdapterChina packets and
+//	It emulates only basic packets of CanAdapterChina class and
 //	it does not support changing any CAN parameters on demand.
 //
 //	CAN bus speed can be changed below - see CAN BUS SETUP section.
