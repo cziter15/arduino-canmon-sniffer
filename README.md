@@ -13,8 +13,7 @@ Keep in mind that some ESP32 devkits do not support 2000000
 serial speed. CP21XX based ones can be reconfigured to support
 faster rates by using CP21xxCustomizationUtility from S. Labs.
 
-![CAN Monitor](images/CAN Monitor.png "CAN Monitor")
-
+![CAN Monitor](images/canmonitor.png "CAN Monitor")
 
 # My ESP32 setup
 
