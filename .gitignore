@@ -1,3 +1,5 @@
 /arduino-canmon-sniffer/__vm
 /arduino-canmon-sniffer/Libraries
 /.vs
+/arduino-canmon-sniffer/Release
+/images/Thumbs.db
