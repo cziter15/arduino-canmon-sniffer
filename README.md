@@ -16,6 +16,7 @@ faster rates by using CP21xxCustomizationUtility from S. Labs.
 ![CAN Monitor](images/canmonitor.png "CAN Monitor")
 
 # My ESP32 setup
+![ESP32 Setup](images/setup.png "ESP32 Setup")
 
 # Requirements:
 Arduino-CAN library - https://github.com/sandeepmistry/arduino-CAN
